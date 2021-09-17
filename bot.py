@@ -18,7 +18,7 @@ def process_message(update.context):
 
 if __name__== '__main__':
 
-   updater = Updater(token=os.environ['1966570588:AAG5HiKbmieozaH9LnNDL-6h4F_wVUqg-I8'], use_context=True)
+   updater = Updater(token=os.environ['Your_Token'], use_context=True)
 
    dp = updater.dispatcher
    dp.add_handler(MessageHandler(filter=Filters.text, callback=process_message)  
