@@ -8,7 +8,7 @@ def process_message(update.context):
 
     if str(text).__contains__('#aporte'):
         context.bot.send_message(
-            chat_id=@The_Phantom1
+            chat_id=@SantuaryRetroGameS3
             text=str(text).replace('#aporte', ' ') 
 
          )
